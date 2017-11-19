@@ -1,7 +1,7 @@
 --Comando IIF
 
 SELECT C.CONTRATO,C.TITULO, U.NOME,
-IIF(C.STATUS = 1, 'Aprovado',(IIF (C.STATUS = 3, ‘Cancelado’, ‘Outros’)))AS STATUS_CONTRATO
+IIF(C.STATUS = 1, 'Aprovado',(IIF (C.STATUS = 3, 'Cancelado', 'Outros')))AS STATUS_CONTRATO
 FROM contratowf C
 INNER JOIN USUARIOS U
 ON C.OWNERID = U.ID
