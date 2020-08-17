@@ -1,2 +1,2 @@
 # SQLSERVER
-Meus Projetos SQL SERVER na época de ME
+Meus projetos SQL Server, estudos e queries referências.
